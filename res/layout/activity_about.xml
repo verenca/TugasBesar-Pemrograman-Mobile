@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen1"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context=".Activity.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_title"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="#E6F5C9"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:id="@+id/relativeLayout">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#E6F5C9"
+        >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:text="Weight loss 7-day diet plan is a diet plan for a week. Each day diet come with striet rules about food groups that you can consume.
+For an example, weight lost plan day one is only limited to fruits only. While in days two, you can consume several vegetables which is raw or boiled vegetables.
+This weight lost 7-day diet plan supposed to help you to love up to 6,8kg (15 pounds) in just one week.
+This kind of diet say is works because many of the foods included in the diet that you consume are low calories and full of vitamin such as fruits and vegetables.
+Moreover, this can promote weight loss by creating a calories deficit that help you burn calories throughout the day. If you have any health problem, you need to see your doctor for the foods you can consume on this weight loss 7-days diet plan." />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:gravity="center_horizontal"
+        android:text="About The Diet"
+        android:fontFamily="@font/cheryrushdemo"
+        android:background="#FFF799"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        />
+</RelativeLayout>

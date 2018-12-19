@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TubesAndroid</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">DIET</string>
+    <string name="slide_1_desc"> is the practice of eating food in a regulated and supervised fashion to decrease, maintain, or increase body weight, or to prevent and treat diseases, such as diabetes</string>
+
+    <string name="slide_2_title">FOOD</string>
+    <string name="slide_2_desc"> What about healthy foods?</string>
+
+    <string name="slide_3_title">CALCULATE CALORIES</string>
+    <string name="slide_3_desc">calculate the calories in your body to get the ideal body weight</string>
+
+    <string name="slide_4_title">SPOTS</string>
+    <string name="slide_4_desc">how to exercise well and properly on a diet </string>
+
+</resources>
